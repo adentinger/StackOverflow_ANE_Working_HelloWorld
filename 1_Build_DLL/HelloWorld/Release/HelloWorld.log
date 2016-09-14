@@ -1,0 +1,74 @@
+﻿La génération a démarré 14/09/2016 17:36:14.
+     1>Projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>Link:
+         HelloWorld.vcxproj -> C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.dll
+       PostBuildEvent:
+         "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\bat\PostBuild.bat" "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.dll"
+         :VCEnd
+         ---SETTING VARIABLES--- 
+         
+          
+         ---CLEANING OLD FILES--- 
+         
+          
+         ---COMPILING SWC LIBRARY--- 
+         
+         Loading configuration file C:\Users\Anthony Dentinger\AppData\Local\FlashDevelop\Apps\flexairsdk\4.6.0+22.0.0\frameworks\air-config.xml
+         C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc (2064 bytes)
+          
+         ---UNZIP library.swf FROM SWC---
+         
+         7-Zip [64] 15.14 : Copyright (c) 1999-2015 Igor Pavlov : 2015-12-31
+         
+         Scanning the drive for archives:
+         1 file, 2064 bytes (3 KiB)
+         
+         Extracting archive: C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc
+         --
+         Path = C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc
+         Type = zip
+         Physical Size = 2064
+         
+         Everything is Ok
+         
+         Size:       1242
+         Compressed: 2064
+          
+         ---COPYING NATIVE LIBRARIES INTO PLATFORM FOLDERS---
+         ***Windows-x86 DLL*** 
+         
+                 1 file(s) copied.
+          
+         ---BUILDING ANE PACKAGE--- 
+         
+          
+         ---ANE BUILD DONE---
+          
+         ---COPYING AND UNZIPPING ANE TO APP PROJECT'S LIBRARY FOLDER--- 
+         
+                 1 file(s) copied.
+         
+         7-Zip [64] 15.14 : Copyright (c) 1999-2015 Igor Pavlov : 2015-12-31
+         
+         Scanning the drive for archives:
+         1 file, 7765 bytes (8 KiB)
+         
+         Extracting archive: C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\3_Build_App\lib\HelloWorldANE.ane
+         --
+         Path = C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\3_Build_App\lib\HelloWorldANE.ane
+         Type = zip
+         Physical Size = 7765
+         
+         Everything is Ok
+         
+         Files: 6
+         Size:       11804
+         Compressed: 7765
+          
+         ---ANE PREPARED FOR BUILD---
+         PLEASE MANUALLY BUILD THE APPLICATION IN FLASHDEVELOP
+     1>Génération du projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.93

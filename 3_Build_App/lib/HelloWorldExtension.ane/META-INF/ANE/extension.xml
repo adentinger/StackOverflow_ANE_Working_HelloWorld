@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	
+	<id>HelloWorldExtension</id>
+	<name>HelloWorldExtension</name>
+	<description>Description of the Extension</description>
+	<versionNumber>1.0</versionNumber>
+	<copyright>© 2010, Examples, Inc. All rights reserved.</copyright>
+	
+	<platforms>
+		<platform name="Windows-x86">
+			<applicationDeployment>
+				<nativeLibrary>HelloWorld.dll</nativeLibrary>
+				<initializer>extensionInitializer</initializer>	<!--Name must NOT contain an underscore-->
+				<finalizer>extensionFinalizer</finalizer>		<!--Name must NOT contain an underscore-->
+			</applicationDeployment>
+		</platform>
+	</platforms>
+	
+</extension>

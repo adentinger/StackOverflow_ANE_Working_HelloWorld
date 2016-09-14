@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/15.0">
+  
+	<id>HelloWorldApp</id>
+	<versionNumber>1.0</versionNumber>
+	<filename>HelloWorldApp</filename>
+	<name>HelloWorldApp</name>
+	<description>Application's description</description>
+	<copyright>© 2016, Examples, Inc. All rights reserved.</copyright>
+ 
+	<initialWindow>
+		<title>HelloWorldApp</title>
+		<content>HelloWorldApp.swf</content>
+		<systemChrome>standard</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+		<minimizable>true</minimizable>
+		<maximizable>true</maximizable>
+		<resizable>true</resizable>
+	</initialWindow>
+	
+	<supportedProfiles>extendedDesktop</supportedProfiles>
+	<extensions>
+		<extensionID>HelloWorldExtension</extensionID>
+	</extensions>
+	
+	<!--This below was added automatically. I don't know why this is necessary (if at all).-->
+	<android>
+		<manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+	</android>
+	
+</application>
