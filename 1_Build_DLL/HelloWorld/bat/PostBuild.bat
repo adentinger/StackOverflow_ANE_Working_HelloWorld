@@ -19,7 +19,7 @@ call "%BUILD_ANE_HOME_FOLDER%\bat\CustomBuild.bat"
 
 
 rem Step 3.1 : Prepare the ANE for building the application.
-call "%BUILD_APP_HOME_FOLDER%\bat\PrepareANE.bat"
+call "%BUILD_APP_HOME_FOLDER%\bat\Custom_PrepareANE.bat"
 
 
 rem Step 3.2 : Build the application manually from FlashDevelop by hitting F5.

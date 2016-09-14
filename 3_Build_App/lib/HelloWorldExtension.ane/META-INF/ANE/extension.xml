@@ -7,6 +7,8 @@
 	<versionNumber>1.0</versionNumber>
 	<copyright>© 2010, Examples, Inc. All rights reserved.</copyright>
 	
+	<!--<platforms> must provide the native library's name, as well as the name of the initializer
+	and finalizer, otherwise you will get error #3500.-->
 	<platforms>
 		<platform name="Windows-x86">
 			<applicationDeployment>

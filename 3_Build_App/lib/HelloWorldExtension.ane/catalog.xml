@@ -10,21 +10,21 @@
   </features>
   <libraries>
     <library path="library.swf">
-      <script name="HelloWorldExtension" mod="1473627963435" signatureChecksum="3411952974" >
+      <script name="HelloWorldExtension" mod="1473890256963" signatureChecksum="3411952974" >
         <def id="HelloWorldExtension" /> 
         <dep id="flash.external:ExtensionContext" type="s" /> 
         <dep id="flash.external:ExtensionContext" type="e" /> 
         <dep id="flash.events:EventDispatcher" type="i" /> 
         <dep id="AS3" type="n" /> 
       </script>
-      <script name="_49059be625facdab6892d2313488cd5d166f5e1a3278ab349aeae326932fe719_flash_display_Sprite" mod="1473888976852" signatureChecksum="1641445965" >
+      <script name="_49059be625facdab6892d2313488cd5d166f5e1a3278ab349aeae326932fe719_flash_display_Sprite" mod="1473890731784" signatureChecksum="1641445965" >
         <def id="_49059be625facdab6892d2313488cd5d166f5e1a3278ab349aeae326932fe719_flash_display_Sprite" /> 
         <dep id="flash.system:Security" type="e" /> 
         <dep id="flash.display:Sprite" type="i" /> 
         <dep id="AS3" type="n" /> 
       </script>
       <digests>
-        <digest type="SHA-256" signed="false" value="2bbe1a16297bc7d7a9ef7440a6492dad392ccc8680cb05a4e376ac235176de08"   />
+        <digest type="SHA-256" signed="false" value="5974eb8265340f6c7eb71ca7a53dbcae26fd08be0e46f769314d5801f4b031f4"   />
       </digests>
     </library>
   </libraries>

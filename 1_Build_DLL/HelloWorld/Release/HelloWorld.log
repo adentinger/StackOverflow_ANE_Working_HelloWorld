@@ -1,6 +1,13 @@
-﻿La génération a démarré 14/09/2016 17:36:14.
-     1>Projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" sur le nœud 2 (Build cible(s)).
-     1>Link:
+﻿La génération a démarré 14/09/2016 18:05:27.
+     1>Projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Anthony Dentinger\AppData\Local\FlashDevelop\Apps\flexairsdk\4.6.0+22.0.0\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HELLOWORLD_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Anthony Dentinger\AppData\Local\FlashDevelop\Apps\flexairsdk\4.6.0+22.0.0\lib\win" FlashRuntimeExtensions.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+            Création de la bibliothèque C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.lib et de l'objet C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.exp
+         Génération de code en cours
+         Fin de la génération du code
          HelloWorld.vcxproj -> C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.dll
        PostBuildEvent:
          "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\bat\PostBuild.bat" "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\Release\HelloWorld.dll"
@@ -14,25 +21,25 @@
          ---COMPILING SWC LIBRARY--- 
          
          Loading configuration file C:\Users\Anthony Dentinger\AppData\Local\FlashDevelop\Apps\flexairsdk\4.6.0+22.0.0\frameworks\air-config.xml
-         C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc (2064 bytes)
+         C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc (2065 bytes)
           
          ---UNZIP library.swf FROM SWC---
          
          7-Zip [64] 15.14 : Copyright (c) 1999-2015 Igor Pavlov : 2015-12-31
          
          Scanning the drive for archives:
-         1 file, 2064 bytes (3 KiB)
+         1 file, 2065 bytes (3 KiB)
          
          Extracting archive: C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc
          --
          Path = C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\2_Build_ANE\lib\HelloWorldSWC.swc
          Type = zip
-         Physical Size = 2064
+         Physical Size = 2065
          
          Everything is Ok
          
-         Size:       1242
-         Compressed: 2064
+         Size:       1245
+         Compressed: 2065
           
          ---COPYING NATIVE LIBRARIES INTO PLATFORM FOLDERS---
          ***Windows-x86 DLL*** 
@@ -51,24 +58,24 @@
          7-Zip [64] 15.14 : Copyright (c) 1999-2015 Igor Pavlov : 2015-12-31
          
          Scanning the drive for archives:
-         1 file, 7765 bytes (8 KiB)
+         1 file, 7850 bytes (8 KiB)
          
          Extracting archive: C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\3_Build_App\lib\HelloWorldANE.ane
          --
          Path = C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\3_Build_App\lib\HelloWorldANE.ane
          Type = zip
-         Physical Size = 7765
+         Physical Size = 7850
          
          Everything is Ok
          
          Files: 6
-         Size:       11804
-         Compressed: 7765
+         Size:       11961
+         Compressed: 7850
           
          ---ANE PREPARED FOR BUILD---
          PLEASE MANUALLY BUILD THE APPLICATION IN FLASHDEVELOP
-     1>Génération du projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" terminée (Build cible(s)).
+     1>Génération du projet "C:\Users\Anthony Dentinger\Google Drive\Programming Projects\StackOverflow Example\1_Build_DLL\HelloWorld\HelloWorld.vcxproj" terminée (Rebuild cible(s)).
 
 La génération a réussi.
 
-Temps écoulé 00:00:03.93
+Temps écoulé 00:00:05.71

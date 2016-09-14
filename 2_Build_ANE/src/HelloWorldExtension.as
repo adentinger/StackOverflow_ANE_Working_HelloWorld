@@ -13,7 +13,9 @@ package
         }
 
         public function helloWorld() : String  {
-			// Calls the native function helloWorld.
+			// Calls the native function helloWorld. Name must match the
+			// name specified to the runtime during the extensionContext's
+			// initialization, otherwise you will obviously get error #3500.
             return String(extContext.call("helloWorld"));
         }
 
